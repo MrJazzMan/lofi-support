@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lofi Radio Android - Privacidade / Privacy | lofi-support</title>
+    <meta property="og:title" content="Lofi Radio Android - Privacidade / Privacy">
+    <meta property="og:locale" content="pt_PT">
+    <link rel="canonical" href="https://mrjazzman.github.io/lofi-support/privacy-android/">
+    <meta property="og:url" content="https://mrjazzman.github.io/lofi-support/privacy-android/">
+    <meta property="og:site_name" content="lofi-support">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta property="twitter:title" content="Lofi Radio Android - Privacidade / Privacy">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      <h1><a href="https://mrjazzman.github.io/lofi-support/">lofi-support</a></h1>
+
+      <h1 id="lofi-radio-android-privacidade--privacy">Lofi Radio Android - Privacidade / Privacy</h1>
+      <p>Data / Date: <strong>2026-11-11</strong>. Última actualização / Last updated: <strong>2026-11-11</strong>.</p>
+
+      <h2 id="português">Português</h2>
+
+      <h3 id="responsável-e-contacto">Responsável e contacto</h3>
+
+      <p>Responsável pela app: Miguel Garcia. Contacto de privacidade e suporte: <a href="mailto:lofihqradio.app@gmail.com"><strong>lofihqradio.app@gmail.com</strong></a>.</p>
+
+      <p>Este texto descreve a app Android «Lofi Radio» (<code class="language-plaintext highlighter-rouge">pt.miguelgarcia.lofiradio</code>). Não deve ser usado para assumir o comportamento de versões anteriores, nem o da app iOS. Não certifica os direitos de distribuição das emissoras.</p>
+
+      <h3 id="reprodução-e-serviços-externos">Reprodução e serviços externos</h3>
+
+      <p>A app reproduz rádio ao vivo através de Media3 (ExoPlayer). Não descarrega faixas para escuta offline e não grava áudio.</p>
+
+      <p>Num arranque frio, a app tenta iniciar automaticamente o canal Lofi. Esse arranque pode começar um pedido de áudio sem um toque adicional. O regresso do segundo plano não volta a disparar esse arranque. A escolha da última estação não é guardada.</p>
+
+      <p>Os destinos de áudio identificados nesta versão são:</p>
+
+      <ul>
+  <li>Cliamp, <code class="language-plaintext highlighter-rouge">radio.cliamp.stream</code>, para Lofi, Meditative e NCS Chill;</li>
+  <li>Box Radio, URL oficial <a href="https://play.streamafrica.net/lofiradio">https://play.streamafrica.net/lofiradio</a> (fonte: <a href="https://boxradio.net/en/opendata">https://boxradio.net/en/opendata</a>). Em 2026-11-11 este URL redireccionou (HTTPS para HTTPS) para <code class="language-plaintext highlighter-rouge">boxradio-edge-00.streamafrica.net</code>. O anfitrião de destino pode mudar;</li>
+  <li>ISEKOI Radio, <code class="language-plaintext highlighter-rouge">public.isekoi-radio.com</code>, para os canais Chill Zone, ISEKOI Radio e Non-Stop Ambient.</li>
+</ul>
+
+      <p>Nos canais ISEKOI, enquanto a estação está a tocar, a app também pede metadados de «a tocar agora» (artista e título) a <a href="https://public.isekoi-radio.com/api/nowplaying/">https://public.isekoi-radio.com/api/nowplaying/</a> com o código da estação (<code class="language-plaintext highlighter-rouge">chill</code>, <code class="language-plaintext highlighter-rouge">isekoi</code> ou <code class="language-plaintext highlighter-rouge">ambient</code>). Se a API não responder, a app pode usar os metadados ICY do próprio stream. A resposta da API não é guardada em disco.</p>
+
+      <p>Os operadores destes serviços recebem o endereço IP e informação técnica dos pedidos (incluindo um User-Agent da app, o endereço pedido e a hora). Podem relacionar pedidos com o conteúdo solicitado e, a partir do IP, inferir uma localização aproximada. Não dispomos de confirmação dos respectivos prazos de conservação, finalidades adicionais ou transferências internacionais. Não se deve presumir que o IP nunca é guardado. A app não lê, não guarda e não envia esse IP para um servidor do responsável.</p>
+
+      <p>A arte dos canais Box Radio e ISEKOI vai incluída na app. A app não vai buscar logótipos a sítios de terceiros nesta versão.</p>
+
+      <p>Nas Definições, os créditos «Box : Lofi Radio» e «ISEKOI Radio» abrem no navegador do sistema os sítios <a href="https://boxradio.net">https://boxradio.net</a> e <a href="https://isekoi-radio.com">https://isekoi-radio.com</a>. A verificação de actualizações tenta abrir a ficha da app no Google Play. Esses sítios e a Play aplicam as suas próprias práticas de privacidade, distintas da informação que o responsável pela app recebe.</p>
+
+      <h3 id="android-auto-e-o-sistema">Android Auto e o sistema</h3>
+
+      <p>A app pode ser usada no telefone e no Android Auto (e em sistemas automóveis compatíveis com a fonte de média da app). O nome da estação, o título e o artista quando existirem, e o logótipo empacotado, podem aparecer na notificação, no ecrã de bloqueio e no ecrã do carro. Essa apresentação faz-se no aparelho, através das interfaces de média do sistema. O sistema operativo, o Assistente e o anfitrião do carro seguem as respectivas definições e termos. Estas observações não equivalem a uma garantia sobre o tratamento feito por esses serviços.</p>
+
+      <h3 id="informação-no-dispositivo-e-diagnósticos">Informação no dispositivo e diagnósticos</h3>
+
+      <p>Preferências de tema, idioma, visualizador e equalizador (incluindo nomes de presets que o utilizador grave e curvas por estação) são guardadas localmente. Não há lista de favoritos nesta versão Android.</p>
+
+      <p>Há processamento e armazenamento temporário de áudio em memória para reprodução. A app não oferece gravação nem escuta offline. O visualizador analisa o áudio já em reprodução, sem permissão de microfone.</p>
+
+      <p>A cópia de segurança do Android permanece ligada na app. Se o utilizador tiver a cópia de segurança do Android activada, o sistema pode incluir as preferências da app (tema, idioma, visualizador e equalizador, incluindo nomes de presets) na cópia da conta Google do utilizador. O responsável pela app não acede a essa cópia.</p>
+
+      <p>Na inspecção do código desta versão não foi identificado envio destas preferências para um servidor de recolha próprio do responsável, nem a inclusão de SDK de analítica, anúncios ou relatórios de falha. Existem registos locais do sistema sobre reprodução e erros; não foi identificado envio automático destes registos no código auditado. O sistema operativo pode gerir e partilhar diagnósticos segundo as suas definições e termos. Estas observações não equivalem a uma garantia global de ausência de recolha ou rastreamento por todos os serviços externos.</p>
+
+      <h3 id="contacto-conservação-e-direitos">Contacto, conservação e direitos</h3>
+
+      <p>Se contactar o suporte, a mensagem e a informação que enviar serão disponibilizadas ao responsável através do serviço de email usado no contacto. Esse contacto utiliza Gmail; o serviço de email tem os seus próprios termos e práticas. Não envie dados sensíveis nem gravações de áudio.</p>
+
+      <p>Pode usar o contacto acima para pedir informação sobre o tratamento de dados, conservação e os direitos aplicáveis, incluindo acesso, rectificação ou apagamento quando o responsável detenha dados pessoais seus. Não se promete que o responsável possa apagar registos mantidos pelos operadores de rádio, pela Google ou pelo fabricante do aparelho ou do carro. Os prazos de conservação dos servidores externos não foram confirmados.</p>
+
+      <h3 id="alojamento-destas-páginas">Alojamento destas páginas</h3>
+
+      <p>Estas páginas destinam-se a ser publicadas no GitHub Pages, numa morada distinta da política iOS: <a href="https://mrjazzman.github.io/lofi-support/privacy-android/">https://mrjazzman.github.io/lofi-support/privacy-android/</a>. Segundo a documentação do GitHub, este serviço regista e conserva endereços IP de visitantes por motivos de segurança. Trata-se do alojamento do sítio, separado das ligações de áudio da app. Esta informação não constitui uma declaração de que nenhum dado é recolhido.</p>
+
+      <h2 id="english">English</h2>
+
+      <h3 id="responsible-party-and-contact">Responsible party and contact</h3>
+
+      <p>App responsible party: Miguel Garcia. Privacy and support contact: <a href="mailto:lofihqradio.app@gmail.com"><strong>lofihqradio.app@gmail.com</strong></a>.</p>
+
+      <p>This information describes the Android app &quot;Lofi Radio&quot; (<code class="language-plaintext highlighter-rouge">pt.miguelgarcia.lofiradio</code>). It should not be assumed to describe earlier versions, or the iOS app. It does not certify the broadcasters&#x27; distribution rights.</p>
+
+      <h3 id="playback-and-external-services">Playback and external services</h3>
+
+      <p>The app plays live radio through Media3 (ExoPlayer). It does not download tracks for offline listening and it does not record audio.</p>
+
+      <p>On a cold launch, the app attempts to start the Lofi channel automatically. That start may begin an audio request without a further tap. Returning from the background does not trigger this startup again. The last station is not stored.</p>
+
+      <p>The audio destinations identified in this version are:</p>
+
+      <ul>
+  <li>Cliamp, <code class="language-plaintext highlighter-rouge">radio.cliamp.stream</code>, for Lofi, Meditative and NCS Chill;</li>
+  <li>Box Radio, official URL <a href="https://play.streamafrica.net/lofiradio">https://play.streamafrica.net/lofiradio</a> (source: <a href="https://boxradio.net/en/opendata">https://boxradio.net/en/opendata</a>). On 2026-11-11 this URL redirected (HTTPS to HTTPS) to <code class="language-plaintext highlighter-rouge">boxradio-edge-00.streamafrica.net</code>. The edge host may change;</li>
+  <li>ISEKOI Radio, <code class="language-plaintext highlighter-rouge">public.isekoi-radio.com</code>, for the Chill Zone, ISEKOI Radio and Non-Stop Ambient channels.</li>
+</ul>
+
+      <p>On ISEKOI channels, while the station is playing, the app also requests now-playing metadata (artist and title) from <a href="https://public.isekoi-radio.com/api/nowplaying/">https://public.isekoi-radio.com/api/nowplaying/</a> with the station shortcode (<code class="language-plaintext highlighter-rouge">chill</code>, <code class="language-plaintext highlighter-rouge">isekoi</code> or <code class="language-plaintext highlighter-rouge">ambient</code>). If the API does not respond, the app may use ICY metadata from the stream itself. The API response is not stored on disk.</p>
+
+      <p>The operators of these services receive the IP address and technical request information (including an app User-Agent, the requested address and the time). They may associate requests with the content requested and, from the IP address, infer an approximate location. Their retention periods, additional purposes and international transfers have not been confirmed. IP addresses must not be assumed never to be stored. The app does not read, store or send that IP address to a server operated by the responsible party.</p>
+
+      <p>Artwork for Box Radio and ISEKOI is packaged in the app. This version does not fetch station logos from third-party sites.</p>
+
+      <p>In Settings, the credits &quot;Box : Lofi Radio&quot; and &quot;ISEKOI Radio&quot; open <a href="https://boxradio.net">https://boxradio.net</a> and <a href="https://isekoi-radio.com">https://isekoi-radio.com</a> in the system browser. Check for updates tries to open the app&#x27;s Google Play listing. Those sites and Play apply their own privacy practices, distinct from information received by the app&#x27;s responsible party.</p>
+
+      <h3 id="android-auto-and-the-system">Android Auto and the system</h3>
+
+      <p>The app can be used on the phone and in Android Auto (and on car systems that accept the app as a media source). The station name, the title and artist when available, and the packaged logo may appear in the notification, on the lock screen and on the car display. That presentation happens on the device, through the system&#x27;s media interfaces. The operating system, Assistant and the car host follow their own settings and terms. These observations are not a guarantee about how those services handle the information.</p>
+
+      <h3 id="on-device-information-and-diagnostics">On-device information and diagnostics</h3>
+
+      <p>Theme, language, visualiser and equaliser preferences (including names of presets the user saves, and per-station curves) are stored locally. This Android version has no favourites list.</p>
+
+      <p>Audio is processed and temporarily buffered in memory for playback. The app does not offer recording or offline listening. The visualiser analyses audio that is already being played, without a microphone permission.</p>
+
+      <p>Android backup remains enabled in the app. If the user has Android backup turned on, the system may include the app&#x27;s preferences (theme, language, visualiser and equaliser, including preset names) in the backup for the user&#x27;s Google account. The app&#x27;s responsible party does not have access to that backup.</p>
+
+      <p>The inspection of this version&#x27;s code did not identify transmission of these preferences to a collection server operated by the responsible party, nor an analytics, advertising or crash-reporting SDK. Local system logs include playback state and errors; automatic upload of these logs was not identified in the audited code. The operating system may manage and share diagnostics according to its settings and terms. These observations are not an app-wide guarantee of no collection or tracking by all external services.</p>
+
+      <h3 id="contact-retention-and-rights">Contact, retention and rights</h3>
+
+      <p>If you contact support, your message and the information you send will be made available to the responsible party through the email service used by the contact. This contact uses Gmail, which has its own terms and practices. Do not send sensitive information or audio recordings.</p>
+
+      <p>Use the contact above to ask about processing, retention and applicable rights, including access, correction or deletion where the responsible party holds your personal information. No promise is made that the responsible party can delete records held by radio operators, Google, or the maker of the device or the car. External servers&#x27; retention periods have not been confirmed.</p>
+
+      <h3 id="hosting-these-pages">Hosting these pages</h3>
+
+      <p>These pages are intended for GitHub Pages, at an address separate from the iOS policy: <a href="https://mrjazzman.github.io/lofi-support/privacy-android/">https://mrjazzman.github.io/lofi-support/privacy-android/</a>. According to GitHub&#x27;s documentation, that service logs and retains visitors&#x27; IP addresses for security purposes. This website-hosting processing is separate from the app&#x27;s audio connections. This information is not a declaration that no data is collected.</p>
+    </div>
+  </body>
+</html>
