@@ -11,6 +11,7 @@ Thank you to the stations we play, and to the people whose work is part of Lofi 
 - Cascais FM
 - [Omarchy](https://github.com/omacom/omarchy)
 - [Justin Lowry / @justikun](https://github.com/Justikun/omarchy-osaka-jade-theme)
+- [Cozy UI theme & artwork by Fasid Arshafwan (@arsh240311)](https://github.com/arsh240311/omarchy-cozy-ui) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
 ## Português
 
