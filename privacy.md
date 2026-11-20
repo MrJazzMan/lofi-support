@@ -24,7 +24,11 @@ A função de verificação de atualizações utiliza o serviço iTunes Lookup d
 
 Preferências de equalizador, idioma, tema, visualizador e efeitos são guardadas localmente. Podem incluir nomes de presets introduzidos pelo utilizador e curvas por estação. Há processamento e armazenamento temporário de áudio em memória para reprodução; a app não oferece gravação ou escuta offline.
 
-Na inspeção disponível não foi identificado envio destas preferências para um servidor de recolha próprio do responsável. Existem registos locais do sistema sobre reprodução, erros, HTTP e componentes de caminhos de URL; não foi identificado envio automático destes registos no código auditado. O sistema operativo pode gerir e partilhar diagnósticos segundo as suas definições e termos. Estas observações não equivalem a uma garantia global de ausência de recolha ou rastreamento por todos os serviços externos.
+Estas preferências não são enviadas para o responsável. A única informação que a app envia ao servidor do responsável são contadores anónimos de utilização, descritos abaixo. Existem registos locais do sistema sobre reprodução, erros, HTTP e componentes de caminhos de URL; não foi identificado envio automático destes registos no código auditado. O sistema operativo pode gerir e partilhar diagnósticos segundo as suas definições e termos. Estas observações não equivalem a uma garantia global de ausência de recolha ou rastreamento por todos os serviços externos.
+
+### Métricas anónimas de utilização
+
+A app guarda no dispositivo contadores por dia (minutos e reproduções por rádio, definições em uso e alguns eventos) e envia-os uma vez, depois de o dia terminar, para `metrics.miguelg.dev`. Os contadores não incluem identificadores, nada mais fino do que o dia nem texto livre, e não são ligados à sua identidade. Não guardamos o endereço IP com estes contadores. Servem apenas para perceber o que os ouvintes mais usam (análise) e não são usados para rastreamento. As versões de desenvolvimento não enviam nada.
 
 ### Contacto, conservação e direitos
 
@@ -56,7 +60,11 @@ The update-check function uses Apple’s iTunes Lookup service. Opening the App 
 
 Equaliser, language, theme, visualiser and effects preferences are stored locally. These may include user-entered preset names and per-station curves. Audio is processed and temporarily buffered in memory for playback; the app does not offer recording or offline listening.
 
-The available inspection did not identify transmission of these preferences to a collection server operated by the responsible party. Local system logs include playback state, errors, HTTP and URL path components; automatic upload of these logs was not identified in the audited code. The operating system may manage and share diagnostics according to its settings and terms. These observations are not an app-wide guarantee of no collection or tracking by all external services.
+These preferences are not sent to the responsible party. The only information the app sends to the responsible party's server is the anonymous usage counts described below. Local system logs include playback state, errors, HTTP and URL path components; automatic upload of these logs was not identified in the audited code. The operating system may manage and share diagnostics according to its settings and terms. These observations are not an app-wide guarantee of no collection or tracking by all external services.
+
+### Anonymous usage metrics
+
+The app keeps per-day counts on the device (minutes and plays per station, settings in use and a few events) and sends them once, after the day is over, to `metrics.miguelg.dev`. The counts contain no identifiers, nothing finer than the day and no free text, and are not linked to your identity. We do not store the IP address with these counts. They are used only to understand what listeners use most (analytics) and not for tracking. Development builds send nothing.
 
 ### Contact, retention and rights
 
