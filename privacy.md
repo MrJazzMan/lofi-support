@@ -2,7 +2,7 @@
 permalink: /privacy/
 ---
 
-# Lofi Radio — Privacidade / Privacy
+# Lofi Harbour — Privacidade / Privacy
 
 ## Português
 
